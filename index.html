@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buckeye Product Management Club | The Ohio State University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom OSU Colors */
+        .bg-osu-scarlet { background-color: #BB0000; }
+        .text-osu-scarlet { color: #BB0000; }
+        .border-osu-scarlet { border-color: #BB0000; }
+        .bg-osu-gray { background-color: #4A4A4A; }
+        .text-osu-gray { color: #4A4A4A; }
+        .hover\:bg-osu-scarlet-dark:hover { background-color: #a00000; }
+    </style>
+</head>
+<body class="bg-gray-50 text-osu-gray">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <a href="#home" class="flex items-center space-x-3">
+                    <!-- IMPORTANT: Replace "0.jpg" with the path to your logo file -->
+                    <img src="0.jpg" alt="BPMC Logo" class="h-12 w-auto">
+                    <span class="text-xl font-bold text-osu-gray hidden sm:block">Buckeye PMC</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-osu-scarlet transition duration-300">About Us</a>
+                    <a href="#what-we-do" class="text-gray-600 hover:text-osu-scarlet transition duration-300">What We Do</a>
+                    <a href="#why-join" class="text-gray-600 hover:text-osu-scarlet transition duration-300">Why Join?</a>
+                    <a href="#events" class="text-gray-600 hover:text-osu-scarlet transition duration-300">Events</a>
+                </div>
+                <a href="#join" class="bg-osu-scarlet text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-osu-scarlet-dark transition duration-300">
+                    Join Us
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-white">
+            <div class="container mx-auto px-6 py-24 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-osu-gray leading-tight">
+                    Shape the <span class="text-osu-scarlet">Future of Products.</span>
+                </h1>
+                <p class="mt-4 text-lg md:text-xl text-gray-500 max-w-3xl mx-auto">
+                    The premier student organization at The Ohio State University for aspiring product managers, designers, and innovators.
+                </p>
+                <div class="mt-8">
+                    <a href="#join" class="bg-osu-scarlet text-white font-bold py-3 px-8 rounded-lg text-lg shadow-xl hover:bg-osu-scarlet-dark transition duration-300 transform hover:scale-105">
+                        Get Involved
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-osu-gray">About Buckeye PMC</h2>
+                    <p class="mt-2 text-gray-500">Our purpose and mission.</p>
+                    <div class="mt-4 w-24 h-1 bg-osu-scarlet mx-auto rounded"></div>
+                </div>
+                <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold text-osu-scarlet mb-4">Our Purpose</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        The Buckeye Product Management Club aims to equip Ohio State students with the knowledge, skills, and experiences needed to explore and pursue careers in product management. Through speaker events, hands-on workshops, product case studies, and networking with industry professionals, the organization supports students in understanding the intersection of technology, business, and user experience. Aligned with Ohio State’s mission to prepare students for leadership and innovation, the club fosters cross-disciplinary collaboration and helps students turn ideas into impactful products.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Do Section -->
+        <section id="what-we-do" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-osu-gray">What We Do</h2>
+                    <p class="mt-2 text-gray-500">Providing hands-on experience and industry insights.</p>
+                     <div class="mt-4 w-24 h-1 bg-osu-scarlet mx-auto rounded"></div>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Activity Card 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Industry Speaker Events</h3>
+                        <p class="text-gray-600">Learn from experienced Product Managers from top tech companies and startups.</p>
+                    </div>
+                    <!-- Activity Card 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Hands-On Workshops</h3>
+                        <p class="text-gray-600">Develop practical skills in prototyping, user research, roadmap planning, and more.</p>
+                    </div>
+                    <!-- Activity Card 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                         <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Product Case Studies</h3>
+                        <p class="text-gray-600">Dive deep into real-world products to analyze what makes them successful.</p>
+                    </div>
+                    <!-- Activity Card 4 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">PM Mock Interviews</h3>
+                        <p class="text-gray-600">Practice for product management interviews with peers and industry mentors.</p>
+                    </div>
+                    <!-- Activity Card 5 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Product Teardowns</h3>
+                        <p class="text-gray-600">Deconstruct popular apps and websites to understand their product strategy and design.</p>
+                    </div>
+                     <!-- Activity Card 6 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <svg class="w-12 h-12 text-osu-scarlet mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21v-1a6 6 0 00-1.781-4.121M12 11c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Networking & Mentorship</h3>
+                        <p class="text-gray-600">Connect with peers, alumni, and professionals to build your professional network.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Join Section -->
+        <section id="why-join" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-osu-gray">Get a Competitive Edge</h2>
+                    <p class="mt-2 text-gray-500">What makes our club unique.</p>
+                    <div class="mt-4 w-24 h-1 bg-osu-scarlet mx-auto rounded"></div>
+                </div>
+                <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-white p-8 rounded-xl shadow-lg">
+                    <div class="md:w-2/3">
+                        <h3 class="text-2xl font-semibold text-osu-scarlet mb-4">The BPMC Advantage</h3>
+                        <p class="text-gray-600 mb-6">
+                            While Ohio State offers clubs focused on entrepreneurship, consulting, or engineering, none are dedicated to product management. Buckeye PMC fills this critical gap by focusing solely on PM-specific education and career preparation, uniquely equipping Buckeyes to succeed in this high-impact, interdisciplinary field.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-osu-scarlet font-bold mr-2">✓</span>
+                                <p class="text-gray-700">A dedicated, curriculum-based approach to learning Product Management.</p>
+                            </li>
+                            <li class="flex items-start">
+                               <span class="text-osu-scarlet font-bold mr-2">✓</span>
+                                <p class="text-gray-700">Real-world case studies and product teardowns that build practical skills.</p>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-osu-scarlet font-bold mr-2">✓</span>
+                                <p class="text-gray-700">Exclusive networking opportunities tailored to the PM recruiting cycle.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/3 flex justify-center">
+                         <img src="0.jpg" alt="BPMC Logo" class="h-48 w-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events Section -->
+        <section id="events" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-osu-gray">Upcoming Events</h2>
+                    <p class="mt-2 text-gray-500">Join us for our next meeting!</p>
+                    <div class="mt-4 w-24 h-1 bg-osu-scarlet mx-auto rounded"></div>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <!-- Placeholder Event 1 -->
+                    <div class="bg-gray-50 rounded-lg p-6 flex items-center justify-between shadow-md">
+                        <div>
+                            <p class="text-sm text-osu-scarlet font-semibold">SEPTEMBER 15, 2025 | 7:00 PM</p>
+                            <h3 class="text-xl font-bold text-gray-800">Fall Kick-Off & Intro to Product Management</h3>
+                            <p class="text-gray-500">Location: Hitchcock Hall 131</p>
+                        </div>
+                        <a href="#" class="bg-gray-200 text-gray-700 font-bold py-2 px-4 rounded-lg hover:bg-gray-300 transition">Details</a>
+                    </div>
+                     <!-- Placeholder Event 2 -->
+                    <div class="bg-gray-50 rounded-lg p-6 flex items-center justify-between shadow-md">
+                        <div>
+                            <p class="text-sm text-osu-scarlet font-semibold">SEPTEMBER 29, 2025 | 7:00 PM</p>
+                            <h3 class="text-xl font-bold text-gray-800">Workshop: Crafting Your PM Resume</h3>
+                            <p class="text-gray-500">Location: Online via Zoom</p>
+                        </div>
+                        <a href="#" class="bg-gray-200 text-gray-700 font-bold py-2 px-4 rounded-lg hover:bg-gray-300 transition">Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Join Us / Contact Section -->
+        <section id="join" class="py-24 bg-osu-gray">
+             <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Ready to Launch Your PM Career?</h2>
+                <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+                    Join our Discord community to connect with members, get updates, and ask questions!
+                </p>
+                <div class="mt-8">
+                    <a href="https://discord.gg/8DVNPEB2pq" target="_blank" rel="noopener noreferrer" class="bg-osu-scarlet text-white font-bold py-3 px-8 rounded-lg text-lg shadow-xl hover:bg-osu-scarlet-dark transition duration-300 transform hover:scale-105 inline-flex items-center justify-center">
+                        <!-- IMPORTANT: Make sure discord-logo.svg is in your project folder -->
+                        <img src="discord-logo.svg" alt="Discord Logo" class="w-7 h-auto mr-3 filter invert">
+                        Join our Discord
+                    </a>
+                </div>
+                <p class="mt-8 text-gray-400">
+                    Have questions? Email us at <a href="mailto:pappas.294@osu.edu" class="text-white underline hover:text-gray-200">pappas.294@osu.edu</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-6 text-center">
+            <p>&copy; 2025 Buckeye Product Management Club. All Rights Reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">A Student Organization at The Ohio State University.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
